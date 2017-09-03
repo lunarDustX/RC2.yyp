@@ -1,0 +1,1 @@
+parent.hammer = noone;
