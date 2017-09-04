@@ -2,6 +2,8 @@
 global.selecting = noone;
 global.peopleLeft = 10;
 global.dayLeft = 20;
+global.env = 100;
+global.reason = "未知";
 
 draw_set_font(fnt_chinese);
 SetConst();
@@ -12,6 +14,10 @@ targetRiot = riot;
 
 enum buildings {
 	school = 0,
+	hospital = 1,
+	park = 2,
+	shop = 3,
+	company = 4,
 }
 
 enum building_type {

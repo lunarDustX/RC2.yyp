@@ -9,6 +9,8 @@ if (!parent.removed) {
 		if (type = building_type.house) {
 			PeopleLeave(resident);
 			BoardMessage(resident.leavingMessage);
+		} else {
+			BoardMessage("没人知道"+name+"搬走是什么原因");
 		}
 	}
 }

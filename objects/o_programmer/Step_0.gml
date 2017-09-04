@@ -1,5 +1,5 @@
 /// @description Timetable
-// event_inherited
+//event_inherited();
 if (leaved) exit;
 if (o_control.game_pause) exit;
 

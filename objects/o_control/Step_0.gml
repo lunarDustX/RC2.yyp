@@ -8,6 +8,7 @@ if (keyboard_check_pressed(ord("P"))) {
 }
 
 if (riot >= 100) {
+	global.reason = "众怒难平";
 	GameOver();
 }
 

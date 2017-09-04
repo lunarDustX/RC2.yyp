@@ -1,6 +1,18 @@
 /// @description building destroy finished
 if (parent.type == building_type.public) {
 	if (!parent.removed) {
+		// hospital
+		if (parent.building_index == buildings.hospital) {
+			if (parent.patient > 0) {
+				global.reason = "病人被埋在了一片废墟之中。";
+				GameOver();
+				exit;
+			}
+			
+		}
+		//
+	
+	
 		var sum = 0;
 		with (o_people) {
 			if (!leaved) {

@@ -14,7 +14,8 @@ occupation = 0;
 strength = 0;
 
 // building_influence
-building_influnce[buildings.school] = -1;
+building_influnce[buildings.school] = 0;
+building_influnce[buildings.hospital] = -6;
 
 
 

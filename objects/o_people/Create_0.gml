@@ -17,9 +17,10 @@ textbox = noone;
 
 // state 
 state = "zzz";
-leavingMessage = "";
+leavingMessage = "%^&*(&";
 leaved = false;
 outside = false;
+angry_elec = false;
 
 
 

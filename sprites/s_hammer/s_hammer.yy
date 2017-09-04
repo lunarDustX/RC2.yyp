@@ -2,7 +2,7 @@
     "id": "88217f34-6525-47ec-8155-ab6930714f3a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite22",
+    "name": "s_hammer",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -120,7 +120,7 @@
         }
     ],
     "origin": 0,
-    "playbackSpeed": 3,
+    "playbackSpeed": 4,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,

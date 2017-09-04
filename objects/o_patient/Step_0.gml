@@ -9,7 +9,15 @@ if (home.hammer && !home.hammer.secretDestroy) {
 	state = "fighting";
 	exit;
 }
-//event_inherited
+
+// special event: no rescue
+if (o_timer.hour == 2) {
+	if (o_hospital.removed) {
+		global.reason = "住户病情突然发作。因为无法送往医院不治身亡。";
+		GameOver();
+	}
+}
+
 SetStateAtTime(0, 6, "zzz", false);
 SetStateAtTime(6, 8 , "exercise", true);
 SetStateAtTime(8, 15, "???", false);
