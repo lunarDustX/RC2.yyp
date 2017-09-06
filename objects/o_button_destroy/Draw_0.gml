@@ -1,7 +1,7 @@
 /// @description 
 draw_self();
 if (position_meeting(mouse_x, mouse_y, self)) {
-	draw_set_color(c_blue);
+	draw_set_color(c_white);
 	if (parent) {
 		if (parent.type == building_type.house && parent.resident.outside) {	
 			draw_text(x-64, y-62, "趁居民回家之前偷偷拆掉他们的住宅(3h)");

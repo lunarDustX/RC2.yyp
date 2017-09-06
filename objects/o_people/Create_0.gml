@@ -1,4 +1,6 @@
 /// @description Vars
+// for display
+depth = -10;
 
 // attributes
 popularity = 0;

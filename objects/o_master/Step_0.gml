@@ -8,8 +8,9 @@ if (home.hammer && !home.hammer.secretDestroy) {
 	state = "fighting";
 	exit;
 }
+
+/*
 //event_inherited
-/// @description Insert description here
 SetStateAtTime(0, 7, "zzz", false);
 SetStateAtTime(7, 8, "morning exercise", true);
 SetStateAtTime(8, 12, "teaching", true);

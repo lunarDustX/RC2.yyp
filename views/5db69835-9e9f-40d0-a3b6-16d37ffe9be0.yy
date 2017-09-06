@@ -8,7 +8,8 @@
         "4ce2ebc5-f5f8-4484-8a24-09057f7dd7f6",
         "e19feb39-c913-4b03-bf81-c53916cf282e",
         "ca691135-e715-443d-9689-837d8e86ed14",
-        "b330588d-8420-4b9c-a419-f07314e23d64"
+        "b330588d-8420-4b9c-a419-f07314e23d64",
+        "a6604e98-b2df-4a95-a5ab-2d134b21d241"
     ],
     "filterType": "GMObject",
     "folderName": "public buildings",

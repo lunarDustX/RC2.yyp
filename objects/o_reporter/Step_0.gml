@@ -9,5 +9,7 @@ if (home.hammer && !home.hammer.secretDestroy) {
 	state = "fighting";
 	exit;
 }
+
+/*
 //event_inherited
 SetStateAtTime(0, 24, "news", true);

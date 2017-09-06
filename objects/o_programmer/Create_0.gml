@@ -15,8 +15,10 @@ strength = 6;
 
 // building_influence
 building_influnce[buildings.school] = 0;
-
-
+building_influnce[buildings.hospital] = 0;
+building_influnce[buildings.park] = 0;
+building_influnce[buildings.shop] = -1;
+building_influnce[buildings.company] = 2;
 
 
 // building respond

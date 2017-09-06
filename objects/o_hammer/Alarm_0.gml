@@ -12,7 +12,6 @@ if (parent.type == building_type.public) {
 		}
 		//
 	
-	
 		var sum = 0;
 		with (o_people) {
 			if (!leaved) {

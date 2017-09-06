@@ -1,3 +1,3 @@
 /// @description Vars
-alpha = .6;
+alpha = .5;
 
